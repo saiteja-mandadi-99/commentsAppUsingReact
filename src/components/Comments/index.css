@@ -1,1 +1,73 @@
 /* Write your CSS here */
+.appContainer {
+  display: flex;
+  padding: 10px;
+}
+.commentsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Roboto;
+  padding-left: 10px;
+}
+
+.addComments {
+  display: flex;
+  flex-direction: row;
+}
+.inputComments {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.labelEle {
+  color: #1e293b;
+  font-size: 20px;
+  padding: 5px;
+}
+.inputEle {
+  color: #475569;
+  border: 1px solid #cbd2d9;
+  padding: 5px;
+  height: 39px;
+  margin: 9px;
+}
+.textareaEle {
+  color: #475569;
+  border: 1px solid #cbd2d9;
+  padding: 5px;
+
+  margin: 9px;
+}
+.buttonEle {
+  background-color: #0b69ff;
+  color: white;
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+}
+.imageEle {
+  margin-left: 10px;
+  padding-left: 15%;
+}
+.hrEle {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.commentsDetailsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.listContainer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}

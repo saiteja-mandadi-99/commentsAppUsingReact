@@ -27,3 +27,67 @@
 }
 
 /* Write your CSS here */
+.commentHeading {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 3px;
+  align-items: center;
+}
+.commentHeadingInitial {
+  border-radius: 38px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.commentUserName {
+  font-weight: bold;
+  font-family: Roboto;
+  padding-right: 4px;
+  font-size: 20px;
+  margin-right: 3px;
+}
+.dateEle {
+  color: #cbd2d9;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.userComment {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 20px;
+}
+.like-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.likeImage {
+  display: flex;
+  flex-direction: row;
+}
+.like,
+.delete {
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+  padding: 2px;
+}
+.likeTag {
+  padding-bottom: 5px;
+  margin: 2px;
+  font-size: 20px;
+}
+.likeTagSelect {
+  padding-bottom: 5px;
+  margin: 2px;
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+}
