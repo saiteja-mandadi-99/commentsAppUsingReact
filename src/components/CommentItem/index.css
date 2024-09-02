@@ -41,7 +41,7 @@
   color: white;
   height: 50px;
   width: 50px;
-  background-color: black;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,4 +90,10 @@
   font-size: 20px;
   color: blue;
   font-weight: bold;
+}
+.favorite-icon-container {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
